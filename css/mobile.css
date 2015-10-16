@@ -1,0 +1,66 @@
+/*
+ * Globals
+ */
+@import url("http://fonts.googleapis.com/css?family=Dosis:600|Nunito:100,300,400,700");
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #aaa;
+}
+/* Links */
+
+a {
+    color: #fff;
+}
+
+a:focus,
+a:hover {
+  color: #ff755a;
+}
+.bg {
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.bgimage {
+    /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 300px;
+}
+.panel {
+    display:block;
+    background: rgba(0,0,0,0.7);
+    color: rgba(255,255,255,0.9);
+    border-radius: 4px;
+    height: auto;
+    padding: 10px;
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px dotted rgba(255,255,255,0.15);
+    width: 85%;
+}
