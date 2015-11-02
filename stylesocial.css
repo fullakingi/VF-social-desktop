@@ -363,6 +363,7 @@ button.hide {
   width: 100%;
   left: 0;
   top: 0;
+  bottom: 0;
 }
 
 .cell {
@@ -478,8 +479,8 @@ button.hide {
 .about .panel p {
   margin: 0 8% 1.2em;
   font-weight: 100;
-  font-size: 0.8em;
-  letter-spacing: -0.6px;
+  font-size: 18px;
+  line-height: 1.4em;
   position: relative;
   z-index: 1;
     color: rgba(255,255,255,0.99);
@@ -595,7 +596,7 @@ button.hide {
   margin: 0 0 0.4em;
 }
 .prompt .panel p {
-  font-size: 1.25em;
+  font-size: 18px;
   margin: 0 10% 1.25em;
   line-height: 1.25em;
   color: #999999;
@@ -1339,7 +1340,7 @@ button.hide {
     font-size: 1.6em;
   }
   .prompt .panel p {
-    font-size: 0.93333em;
+    font-size: 22px;
     margin: 0 10% 1.3em;
     line-height: 1.3em;
   }
